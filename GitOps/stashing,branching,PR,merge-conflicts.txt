@@ -1,0 +1,20 @@
+Stashing changes ...
+git stash - if we don't want to commit changes, but we will consider them in future
+git stash pop - bring those commit changes to the staging area (ready to push)
+git stash clear - commit chnages deleted permanently
+
+Tip - Never commit changes to the main branch, always create a new branch.
+
+Git branching ...
+git branch [name] - creates a new branch
+git checkout [name] - head will point to the new branch
+
+PR ...
+Pull Request allows you to contribute to other developers project, but make sure before contributing to others project, you create a new branch and then create a PR and ask them to merge your PR.
+From a single branch, we can only create one PR, and through that one PR all the commits can be staged.
+
+Merge conflicts ...
+Merge conflict basically means, when two or more than two developers are modifying the same code or on the same line, then git will get confused whom chnages will it consider.
+
+How to resolve a merge conflict?
+Merge conflicts can be resolved manually by clicking on merge and then commit merge buttons.
