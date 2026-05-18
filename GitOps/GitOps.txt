@@ -1,0 +1,4 @@
+What is GitOps?
+GitOps treats Infrastructure as code same as application code.
+
+IAC is hosted on git repo and is version controlled and allows team collaboration, that's the 1st step.
